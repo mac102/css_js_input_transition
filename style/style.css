@@ -1,0 +1,18 @@
+#expendable_input {
+    overflow:hidden;
+    display: block;
+}
+
+.to-left {
+    float: left;
+}
+
+.show-anim {
+    max-width: 200px;
+    transition: max-width 0.5s, overflow 0s;
+}
+
+.hide-anim {
+    max-width: 0;
+    transition: max-width 0.5s;
+}
